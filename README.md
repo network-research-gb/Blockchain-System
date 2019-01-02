@@ -98,7 +98,7 @@ func main() {
 ```
 ## Introduction about Blockchain System Platform
 ## The Applied in Blockchain
-Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực hiểu biết, năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, Tesla,...
+Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, Tesla,...
 
 + Công nghệ ô tô Automotive (Automotive)
 + Chế tạo (Manufacturing)
