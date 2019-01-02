@@ -37,7 +37,7 @@ type Blockchain struct {
 	blocks []*Block
 }
 
-// Define a hash in block
+// Define a hash of each the block or node in Blockchain
 func (b *Block) SetHash() {
 	bTimeStamp := []byte(strconv.FormatInt(b.Timestamp, 10))
 	blockAsBytes := bytes.Join([][]byte{b.PrevBlockHash, b.Data, bTimeStamp}, []byte{})
@@ -45,14 +45,14 @@ func (b *Block) SetHash() {
 	b.Hash = hash[:] // stored all value of array hash in b.Hash
 }
 
-// Define a new block in network
+// Define a new block in P2P network
 func NewBlock(data string, prevBlockHash []byte) *Block {
 	block := &Block{[]byte{}, prevBlockHash, []byte(data), time.Now().Unix()}
 	block.SetHash()
 	return block
 }
 
-// Genesis Block
+// Generate the genesis block
 func NewGenesisBlock(starting string) *Block {
 	return NewBlock(starting, []byte{})
 }
