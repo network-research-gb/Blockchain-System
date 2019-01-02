@@ -21,7 +21,7 @@ import (
 	"crypto/sha256"
 	"strconv"
 	"time"
-  "sync"
+  	"sync"
 )
 
 // Structure of each block or node in network 
