@@ -138,7 +138,7 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Ethereum](https://ethereum.org/)
 + [HydraChain](https://github.com/HydraChain/hydrachain)
 + [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.3/)
-+ [Hyperledger Iroha](https://www.hyperledger.org/projects/iroha)
++ [Hyperledger Iroha](https://www.hyperledger.org/projects/iroha): Là một hệ thống sổ cái Blockchain phân tán được đơn giản hóa và được mô đun hóa của dự án Hyperledger thuộc [The Linux Foundation](https://www.linuxfoundation.org/), tập trung vào phát triển ứng dụng di động.
 + [Hyperledger Sawtooth Lake](https://sawtooth.hyperledger.org/docs/core/releases/0.7/introduction.html)
 + [Multichain](https://www.multichain.com/)
 + [Openchain](https://www.openchain.org/): Là một hệ thống sổ cái phân tán mã nguồn mở trong phát hành và quản lý tài sản kỹ thuật số.
