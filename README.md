@@ -98,7 +98,7 @@ func main() {
 ```
 ## Introduction about Blockchain System Platform
 ## The Applied in Blockchain
-Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, Tesla,...
+Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài phù hợp. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, IBM, Facebook, Tesla,...
 
 + Công nghệ ô tô Automotive (Automotive)
 + Chế tạo (Manufacturing)
@@ -141,7 +141,7 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Hyperledger Iroha](https://www.hyperledger.org/projects/iroha)
 + [Hyperledger Sawtooth Lake](https://sawtooth.hyperledger.org/docs/core/releases/0.7/introduction.html)
 + [Multichain](https://www.multichain.com/)
-+ [Openchain](https://www.openchain.org/)
++ [Openchain](https://www.openchain.org/): Là một hệ thống sổ cái phân tán mã nguồn mở trong phát hành và quản lý tài sản kỹ thuật số.
 + [Quorum](https://www.jpmorgan.com/global/Quorum): Là nền tảng mã nguồn mở Blockchain, smart contract dựa trên Ethereum thuộc sở hữu của hãng tài chính lâu đời nhất của Mỹ [JPMorgan Chase](https://www.jpmorganchase.com/)  
 + [Stellar](https://www.stellar.org/): Là một cơ sở hạ tầng thanh toán phân tán, mã nguồn mở, kết nối các ngân hàng, hệ thống thanh toán và mọi người. Stellar cho phép xây dựng ví di động, công cụ thanh toán ngân hàng, thiết bị thông minh. Nó cung cấp các máy chủ API RESTful HTTP tên là Horizon, kết nối với Stellar Core, xương sống của mạng Stellar.
 
