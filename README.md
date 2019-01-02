@@ -8,12 +8,12 @@ Blockchain là một công nghệ cho phép truyền dữ liệu an toán với 
 Blockchain sở hữu tính năng là việc truyền tải dữ liệu (bất cứ cái gì trên đời cũng có thể là dữ liệu) không đòi hỏi một trung gian để xác nhận thông tin. Hệ thống Blockchain tồn tại rất nhiều nút độc lập có khả năng xác thực thông tin mà không đòi hỏi **dấu hiệu của niềm tin**. **Thông tin trong Blockchain không thể bị thay đổi và chỉ được bổ sung thêm khi có sự đồng thuận của tất cả các nút trong hệ thống**. **Người tham gia vào mạng có trách nhiệm phê duyệt các giao dịch và giám sát mạng bằng cách giải quyết các công thức tinh vi với sự trợ giúp của máy tính**. Nó là một hệ thống ngang hàng P2P, loại bỏ tất cả mọi khâu trung gian, làm tăng cường an ninh, minh bạch và sự ổn định cũng như giảm thiểu chi phí và lỗi do con người gây ra.
 
 Cấu tạo các trường dữ liệu của mỗi node:
-+ Hash: Giá trị dùng để **chứng nhận" 1 block**. 1 giá trị hash sẽ tương ứng với 1 bộ dữ liệu của block. Khi 1 bit trong block thay đổi thì giá trị được lập trình hash tính ra được sẽ thay đổi theo.
++ Hash: Giá trị dùng để **chứng nhận" 1 block**. Một giá trị hash sẽ tương ứng với một bộ dữ liệu của block. Khi 1 bit trong block thay đổi thì giá trị được lập trình hash tính ra được sẽ thay đổi theo.
 + Previous Block Hash: Giá trị hash của block trước nó (Block đầu tiên sẽ có giá trị bằng 0)
 + Data: Dữ liệu lưu trong block như transaction đối với tiền ảo, thông tin về hệ thống ứng dụng
 + Timestamp: Thời gian node được sinh ra
 
-![](https://bitcoinvietnamnews.com/wp-content/uploads/2018/08/an-toan-khi-giao-dich-blockchain.png)
+![](https://lh3.googleusercontent.com/PTtQeZHjgOT5YoYe6fKbtLISLN0PyX5upBPjPCuZqkPyziF8TTGJ0aXdHnUE8EhFmWrL-U81I5H3KMa2rpJnYJEyE05qhXH-IEqzWQGtBn0sE7XWDT0rbin60pz3EYVgIQ6aP0NbeQQ43gf7VodFzpCMlRtWyPIUQzMw28z93_Nj5jU9qiDS2nSpQIxGjc_G0O5og6E9US_fVPGx0UAnSSk25WB-CrxFjW9Xn5ihM6EiXK3dRPZ4XgYiTbcJu-FD-sREQlSqOAK4GLhL7ctmMtj9qJSjWppE3fWy298j8R3WS6XvdXsXki7hjzBnSHVdeipbftAvjGH6ND9ePYiUY7J0ol_rxC8DlAKu3OoiqDBQ7P5PDjSpHlrXfaJNA_0OsAjO1bBhgY4op-N42yb6Ewf-13Q6C8g8FkwgO9190yx7DWPIzyTpRadFISDHp5MIc0QVAKFJUHMgiFeTfwCy8bYfHUIzyFMOwapUnpQRdn0PXOgqmFtDP_F6YVX1NZRUgahr44Hwqo4brC8mK-N00OmQYFKuBqHmDCQOTInKQPNb8PkpfZjhhXOgQnCZfpfXsoI_yW-iAcUGC2uXajnEDurqi0BpvPK6AU4qCdVRCEuMl_RIzaEoosslF9-vjsQLX96zxxUiklWQcu5ix9p_1qWpU9Api91z23A4is9HlWZ1ya94o3jkDhoGTIwRN4znVUxycfv_FH0gWs8KSw=w1000-h395-no)
 
 ```go
 package main
