@@ -231,7 +231,14 @@ curl http://localhost:3000/txs -d '{aou:0}' | jsonpp // tab 2
 curl http://localhost:3000/state // tab 2
 {"count":1}
 ```
-+ Blockchain Open Source
++ Blockchain Open Source:
+
+Có 3 loại Blockchain:
+
++ Public blockchain như [Bitcoin](https://www.bitcoin.com/), chúng được mở cho công chúng tham gia ở mọi cấp độ và có mã nguồn mở mà cộng đồng duy trì.
++ Permissioned blockchains như [Ripple](https://ripple.com/) là các chuỗi khối được cấp quyền hoạt động trong hệ thống như giao dịch ngân hàng, thanh toán hóa đơn, quản lý tài sản kỹ thuật số,.... Chúng được sử dụng trong các hệ thống phân tán lớn. Source code của họ có thể hoặc không là nguồn mở.
++ Private Blockchain:Thành viên của họ được kiểm soát chặt chẽ. Những loại blockchains này được ưa chuộng bởi các tập đoàn có thành viên đáng tin cậy và trao đổi thông tin bí mật.
+
 
 ## Build own Bitcoin Platform
 ## Blockchain Company
