@@ -97,7 +97,56 @@ func main() {
 
 ```
 ## Introduction about Blockchain System Platform
-## The Applied in Blockchain 
+## The Applied in Blockchain
+Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực hiểu biết, năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, Tesla,...
+
++ Công nghệ ô tô Automotive (Automotive)
++ Chế tạo (Manufacturing)
++ Công nghệ, truyền thông và viễn thông (Tech, media & Telecommunications)
++ Dịch vụ tài chính (Financial Services)
++ Nghệ thuật & Giải trí (Art & Recreation)
++ Chăm sóc sức khỏe (Healthcare)
++ Bảo hiểm (Insurance)
++ Bán lẻ (Retail)
++ Giáo dục (Education)
++ Khu vực công (Public Sector)
++ Bất động sản (Property)
++ Nông nghiệp (Agricultural)
++ Khai thác (Mining)
++ Vận tải và Logistics (Transport & Logistics)
++ Công trình hạ tầng kỹ thuật (Utility)
++ Hợp đồng thông minh (Smart Contract)
++ Internet vạn vật (IoT)
++ Điện toán đám mây (Cloud Computing)
++ Công nghệ thông tin (Information Technology)
++ Kiến trúc (Architecture)
++ Quản lý đô thị (Urban management)
++ Chế tạo thiết bị máy bay (Flight instruments)
++ Hàng không vũ trụ (Aerospace)
++ Khoa học tự nhiên (Natural Science)
++ Khoa học xã hội (Social Science)
+
+Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu Blockchain:
+
++ [BigChainDB](https://www.bigchaindb.com/): Là một cơ sở dữ liệu blockchain có thể mở rộng, nó được thiết kế để merge cơ sở dữ liệu truyền thống và cơ sở dữ liệu trên blockchain. 
++ [Chain Core](https://chain.com/docs/1.2/core/get-started/introduction), là phần mềm quản lý và điều hành các cơ sở hạ tầng trong hệ thống Blockchain
++ [Corda](https://www.corda.net/): Corda là một dự án nguồn mở được xây dựng trên mạng blockchain, cho phép các doanh nghiệp giao dịch trong sự riêng tư nghiêm ngặt. Nền tảng không được hỗ trợ bởi bất kỳ tiền điện tử nào . Như vậy, nó không đòi hỏi sự đồng thuận kiểu khai thác.
++ [Credits](https://credits.com/vi/Home/Index), là một nền tảng blockchain mở và là một framework xây dựng các hợp đồng thông minh tự động và một tiền số nội bộ. 
++ [Domus Tower Blockchain](https://pdfs.semanticscholar.org/559c/38d908521cd0772aa070619bf93a706c011e.pdf)
++ [Elements Blockchain Platform](https://elementsproject.org/)
++ [Eris:db](https://github.com/vulcanize/eris-db)
++ [Ethereum](https://ethereum.org/)
++ [HydraChain](https://github.com/HydraChain/hydrachain)
++ [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.3/)
++ [Hyperledger Iroha](https://www.hyperledger.org/projects/iroha)
++ [Hyperledger Sawtooth Lake](https://sawtooth.hyperledger.org/docs/core/releases/0.7/introduction.html)
++ [Multichain](https://www.multichain.com/)
++ [Openchain](https://www.openchain.org/)
++ [Quorum](https://www.jpmorgan.com/global/Quorum)
++ [Stellar](https://www.stellar.org/)
++ [Symbiont Assembly](https://symbiont.io/technology/)
+
+
 ## Build own Blockchain Platform
 ## Build own Blockchain Bitcoin Platform
 ## Blockchain Company
