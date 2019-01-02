@@ -131,7 +131,7 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [BigChainDB](https://www.bigchaindb.com/): Là một cơ sở dữ liệu blockchain có thể mở rộng, nó được thiết kế để merge cơ sở dữ liệu truyền thống và cơ sở dữ liệu trên blockchain. 
 + [Chain Core](https://chain.com/docs/1.2/core/get-started/introduction), là phần mềm quản lý, cấp quyền và điều hành các cơ sở hạ tầng trong hệ thống Blockchain
 + [Corda](https://www.corda.net/): Corda là một dự án nguồn mở được xây dựng trên mạng blockchain, cho phép các doanh nghiệp giao dịch trong sự riêng tư nghiêm ngặt. Nền tảng không được hỗ trợ bởi bất kỳ tiền điện tử nào . Như vậy, nó không đòi hỏi sự đồng thuận kiểu khai thác.
-+ [Credits](https://credits.com/vi/Home/Index), là một nền tảng blockchain mở và là một framework xây dựng các hợp đồng thông minh tự động và một tiền số nội bộ. 
++ [Credits](https://credits.com/vi/Home/Index), là một nền tảng blockchain mở và là một framework xây dựng các hợp đồng thông minh tự động và tiền số nội bộ. 
 + [Domus Tower Blockchain](https://pdfs.semanticscholar.org/559c/38d908521cd0772aa070619bf93a706c011e.pdf)
 + [Elements Blockchain Platform](https://elementsproject.org/)
 + [Eris:db](https://github.com/vulcanize/eris-db)
