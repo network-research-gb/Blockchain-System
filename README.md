@@ -129,7 +129,7 @@ Một số startup, platform và open source hỗ trợ bạn xây dựng cơ s�
 Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu Blockchain:
 
 + [BigChainDB](https://www.bigchaindb.com/): Là một cơ sở dữ liệu blockchain có thể mở rộng, nó được thiết kế để merge cơ sở dữ liệu truyền thống và cơ sở dữ liệu trên blockchain. 
-+ [Chain Core](https://chain.com/docs/1.2/core/get-started/introduction), là phần mềm quản lý và điều hành các cơ sở hạ tầng trong hệ thống Blockchain
++ [Chain Core](https://chain.com/docs/1.2/core/get-started/introduction), là phần mềm quản lý, cấp quyền và điều hành các cơ sở hạ tầng trong hệ thống Blockchain
 + [Corda](https://www.corda.net/): Corda là một dự án nguồn mở được xây dựng trên mạng blockchain, cho phép các doanh nghiệp giao dịch trong sự riêng tư nghiêm ngặt. Nền tảng không được hỗ trợ bởi bất kỳ tiền điện tử nào . Như vậy, nó không đòi hỏi sự đồng thuận kiểu khai thác.
 + [Credits](https://credits.com/vi/Home/Index), là một nền tảng blockchain mở và là một framework xây dựng các hợp đồng thông minh tự động và một tiền số nội bộ. 
 + [Domus Tower Blockchain](https://pdfs.semanticscholar.org/559c/38d908521cd0772aa070619bf93a706c011e.pdf)
@@ -142,8 +142,10 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Hyperledger Sawtooth Lake](https://sawtooth.hyperledger.org/docs/core/releases/0.7/introduction.html)
 + [Multichain](https://www.multichain.com/)
 + [Openchain](https://www.openchain.org/)
-+ [Quorum](https://www.jpmorgan.com/global/Quorum)
-+ [Stellar](https://www.stellar.org/)
++ [Quorum](https://www.jpmorgan.com/global/Quorum): Là nền tảng mã nguồn mở Blockchain, smart contract dựa trên Ethereum thuộc sở hữu của hãng tài chính lâu đời nhất của Mỹ [JPMorgan Chase](https://www.jpmorganchase.com/)  
++ [Stellar](https://www.stellar.org/): Là một cơ sở hạ tầng thanh toán phân tán, mã nguồn mở, kết nối các ngân hàng, hệ thống thanh toán và mọi người. Stellar cho phép xây dựng ví di động, công cụ thanh toán ngân hàng, thiết bị thông minh. Nó cung cấp các máy chủ API RESTful HTTP tên là Horizon, kết nối với Stellar Core, xương sống của mạng Stellar.
+
+
 + [Symbiont Assembly](https://symbiont.io/technology/)
 
 
