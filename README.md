@@ -137,18 +137,18 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Eris:db](https://github.com/vulcanize/eris-db)
 + [Ethereum](https://ethereum.org/)
 + [HydraChain](https://github.com/HydraChain/hydrachain)
-+ [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.3/)
++ [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.3/): Hỗ trợ quản lý một hoặc nhiều mạng, mỗi mạng quản lý các Tài sản, Thỏa thuận và Giao dịch khác nhau giữa các node nội bộ thành viên khác nhau.
 + [Hyperledger Iroha](https://www.hyperledger.org/projects/iroha): Là một hệ thống sổ cái Blockchain phân tán được đơn giản hóa và được mô đun hóa. Là một trong những dự án lớn của [Hyperledger](https://www.hyperledger.org/) thuộc [The Linux Foundation](https://www.linuxfoundation.org/), tập trung vào phát triển ứng dụng di động.
 + [Hyperledger Sawtooth Lake](https://sawtooth.hyperledger.org/docs/core/releases/0.7/introduction.html)
 + [Multichain](https://www.multichain.com/)
 + [Openchain](https://www.openchain.org/): Là một hệ thống sổ cái phân tán mã nguồn mở trong phát hành và quản lý tài sản kỹ thuật số.
 + [Quorum](https://www.jpmorgan.com/global/Quorum): Là nền tảng mã nguồn mở Blockchain, smart contract dựa trên Ethereum thuộc sở hữu của hãng tài chính lâu đời nhất của Mỹ [JPMorgan Chase](https://www.jpmorganchase.com/)  
 + [Stellar](https://www.stellar.org/): Là một cơ sở hạ tầng thanh toán phân tán, mã nguồn mở, kết nối các ngân hàng, hệ thống thanh toán và mọi người. Stellar cho phép xây dựng ví di động, công cụ thanh toán ngân hàng, thiết bị thông minh. Nó cung cấp các máy chủ API RESTful HTTP tên là Horizon, kết nối với Stellar Core, xương sống của mạng Stellar.
-
-
 + [Symbiont Assembly](https://symbiont.io/technology/)
-
-
 ## Build own Blockchain Platform
+Blockchain là một cơ sở dữ liệu phân tán với một bộ quy tắc để xác minh các bổ sung mới cho cơ sở dữ liệu mạng hệ thống. Có nhiều cách xây dựng mạng lưới Blockchain:
++ Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/) 
++ Blockchain framework như [Cosmos SDK](https://cosmos.network/developers)
+
 ## Build own Blockchain Bitcoin Platform
 ## Blockchain Company
