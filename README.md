@@ -1,5 +1,10 @@
 # Blockchain System
 
+### [Introduction about Blockchain System](/Blockchain-System#introduction-about-blockchain-system)
+### [Introduction about Blockchain System Platform]()
+### [The Applied in Blockchain]()
+### [Build own Bitcoin Platform]()
+### [Blockchain Company & capacity of competition]()
 ![](https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png)
 
 ## Introduction about Blockchain System
@@ -251,4 +256,4 @@ Tôi sẽ giải quyết hết việc cài đặt và phát triển Blockchain t
 ##### Quorum
 
 ## Build own Bitcoin Platform
-## Blockchain Company
+## Blockchain Company & capacity of competition
