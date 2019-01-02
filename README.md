@@ -1,10 +1,10 @@
 # Blockchain System
 
-### [Introduction about Blockchain System](/Blockchain-System#introduction-about-blockchain-system)
-### [Introduction about Blockchain System Platform]()
-### [The Applied in Blockchain]()
-### [Build own Bitcoin Platform]()
-### [Blockchain Company & capacity of competition]()
+### [Introduction about Blockchain System](https://github.com/network-research-gb/Blockchain-System#introduction-about-blockchain-system-1)
+### [Introduction the Blockchain System Platform](https://github.com/network-research-gb/Blockchain-System#introduction-about-blockchain-system-platform-1)
+### [The Applied in Blockchain](https://github.com/network-research-gb/Blockchain-System#the-applied-in-blockchain-1)
+### [Build own Bitcoin Platform](https://github.com/network-research-gb/Blockchain-System#build-own-bitcoin-platform-1)
+### [Blockchain Company & capacity of competition](https://github.com/network-research-gb/Blockchain-System#blockchain-company--capacity-of-competition-1)
 ![](https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png)
 
 ## Introduction about Blockchain System
@@ -101,7 +101,7 @@ func main() {
 }
 
 ```
-## Introduction about Blockchain System Platform
+## Introduction the Blockchain System Platform
 ## The Applied in Blockchain
 Một số startup, platform và open source hỗ trợ bạn xây dựng cơ sở hạ tầng lưu thông Blockchain. Cái đầu tiên và quan trọng nhất là năng lực tài chính, năng lực sáng tạo trong việc vận hành các sản phẩm trong thị trường toàn cầu. Người có năng lực sáng tạo (Bloom's level 6) thì trong vòng **hai tháng** cũng có thể xây dựng cơ đồ cho bạn nếu như công ty bạn biết dùng người tài phù hợp. Không thiếu những công ty trên Thế giới xây dựng mọi thứ như Google, Microsoft, Amazon, IBM, Facebook, Tesla,...
 
