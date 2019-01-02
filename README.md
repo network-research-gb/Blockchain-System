@@ -147,8 +147,8 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Symbiont Assembly](https://symbiont.io/technology/)
 ## Build own Blockchain Platform
 Blockchain là một cơ sở dữ liệu phân tán với một bộ quy tắc để xác minh các bổ sung mới cho cơ sở dữ liệu mạng hệ thống. Có nhiều cách xây dựng mạng lưới Blockchain:
-+ Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/) 
++ Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/), [bcoin](http://bcoin.io/), [btcd](https://github.com/btcsuite/btcd/blob/master/docs/README.md)
 + Blockchain framework như [Cosmos SDK](https://cosmos.network/developers)
 
-## Build own Blockchain Bitcoin Platform
+## Build own Bitcoin Platform
 ## Blockchain Company
