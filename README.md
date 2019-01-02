@@ -147,7 +147,7 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 + [Symbiont Assembly](https://symbiont.io/technology/)
 ## Build own Blockchain Platform
 Blockchain là một cơ sở dữ liệu phân tán với một bộ quy tắc để xác minh các bổ sung mới cho cơ sở dữ liệu mạng hệ thống. Có nhiều cách xây dựng mạng lưới Blockchain:
-+ Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/), [bcoin](http://bcoin.io/), [btcd](https://github.com/btcsuite/btcd/blob/master/docs/README.md)
+### Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/), [bcoin](http://bcoin.io/), [btcd](https://github.com/btcsuite/btcd/blob/master/docs/README.md)
 
 #### Compiler Bitcoin Source code in AWS
 
@@ -203,7 +203,7 @@ cd ~/bitcoin/
 ./src/bitcoin-qt
 ./src/bitcoin-cli
 ```
-+ Blockchain framework như [Solc](https://blockgeeks.com/introduction-to-solidity-part-1/), [Ether Scripter](https://etherscripter.com/0-5-1/), [Embark](https://embark.status.im/), [Tierion](https://tierion.com/), [Coinbase’s API](https://developers.coinbase.com/), [Mist](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781787122147/2/ch02lvl1sec32/mist), [Microsoft Blockchain as a Service](https://youtu.be/gQYMRxQiSwk), [Cosmos SDK](https://cosmos.network/developers)
+### Blockchain framework như [Solc](https://blockgeeks.com/introduction-to-solidity-part-1/), [Ether Scripter](https://etherscripter.com/0-5-1/), [Embark](https://embark.status.im/), [Tierion](https://tierion.com/), [Coinbase’s API](https://developers.coinbase.com/), [Mist](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781787122147/2/ch02lvl1sec32/mist), [Microsoft Blockchain as a Service](https://youtu.be/gQYMRxQiSwk), [Cosmos SDK](https://cosmos.network/developers)
 
 ```js
 // app.js
@@ -231,7 +231,7 @@ curl http://localhost:3000/txs -d '{aou:0}' | jsonpp // tab 2
 curl http://localhost:3000/state // tab 2
 {"count":1}
 ```
-+ Blockchain Open Source:
+### Blockchain Open Source:
 
 Có 3 loại Blockchain:
 
@@ -239,6 +239,16 @@ Có 3 loại Blockchain:
 + Permissioned blockchains như [Ripple](https://ripple.com/) là các chuỗi khối được cấp quyền hoạt động trong hệ thống như giao dịch ngân hàng, thanh toán hóa đơn, quản lý tài sản kỹ thuật số,.... Chúng được sử dụng trong các hệ thống phân tán lớn. Source code của họ có thể hoặc không là nguồn mở.
 + Private Blockchain:Thành viên của họ được kiểm soát chặt chẽ. Những loại blockchains này được ưa chuộng bởi các tập đoàn có thành viên đáng tin cậy và trao đổi thông tin bí mật.
 
+#### Một số mã nguồn mở
+Tôi sẽ giải quyết hết việc cài đặt và phát triển Blockchain trên những nền tảng phổ biến dưới đây
+##### Ethereum
+##### Hyperledger
+##### Corda
+##### HydraChain
+##### MultiChain
+##### Openchain
+##### Elements
+##### Quorum
 
 ## Build own Bitcoin Platform
 ## Blockchain Company
