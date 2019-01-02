@@ -239,7 +239,7 @@ Có 3 loại Blockchain:
 + Permissioned blockchains như [Ripple](https://ripple.com/) là các chuỗi khối được cấp quyền hoạt động trong hệ thống như giao dịch ngân hàng, thanh toán hóa đơn, quản lý tài sản kỹ thuật số,.... Chúng được sử dụng trong các hệ thống phân tán lớn. Source code của họ có thể hoặc không là nguồn mở.
 + Private Blockchain:Thành viên của họ được kiểm soát chặt chẽ. Những loại blockchains này được ưa chuộng bởi các tập đoàn có thành viên đáng tin cậy và trao đổi thông tin bí mật.
 
-#### Một số mã nguồn mở
+#### Một số mã nguồn mở xây dựng các loại Blockchain
 Tôi sẽ giải quyết hết việc cài đặt và phát triển Blockchain trên những nền tảng phổ biến dưới đây
 ##### Ethereum
 ##### Hyperledger
