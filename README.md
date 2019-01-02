@@ -150,5 +150,31 @@ Blockchain là một cơ sở dữ liệu phân tán với một bộ quy tắc 
 + Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/), [bcoin](http://bcoin.io/), [btcd](https://github.com/btcsuite/btcd/blob/master/docs/README.md)
 + Blockchain framework như [Cosmos SDK](https://cosmos.network/developers)
 
+```js
+// app.js
+let lotion = require('lotion');
+let app = lotion({
+ initialState: {
+  count: 0
+ }
+})
+
+let stateFunc = (state, tx) => {
+	if (state.count === tx.aou)
+	{
+		state.count++;
+	}
+}
+app.use(stateFunc);
+app.listen(3000);
+```
+```
+node app.js // tab 1
+curl http://localhost:3000/state // tab 2
+{"count":0}
+curl http://localhost:3000/txs -d '{aou:0}' | jsonpp // tab 2
+curl http://localhost:3000/state // tab 2
+{"count":1}
+```
 ## Build own Bitcoin Platform
 ## Blockchain Company
