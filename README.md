@@ -1,10 +1,10 @@
 # Blockchain System
 
-### [Introduction about Blockchain System](https://github.com/network-research-gb/Blockchain-System#introduction-about-blockchain-system-1)
-### [Introduction the Blockchain System Platform](https://github.com/network-research-gb/Blockchain-System#introduction-about-blockchain-system-platform-1)
-### [The Applied in Blockchain](https://github.com/network-research-gb/Blockchain-System#the-applied-in-blockchain-1)
-### [Build own Bitcoin Platform](https://github.com/network-research-gb/Blockchain-System#build-own-bitcoin-platform-1)
-### [Blockchain Company & capacity of competition](https://github.com/network-research-gb/Blockchain-System#blockchain-company--capacity-of-competition-1)
+### [Introduction about Blockchain System](#introduction-about-blockchain-system-1)
+### [Introduction the Blockchain System Platform](#introduction-about-blockchain-system-platform-1)
+### [The Applied in Blockchain](#the-applied-in-blockchain-1)
+### [Build own Bitcoin Platform](#build-own-bitcoin-platform-1)
+### [Blockchain Company & capacity of competition](#blockchain-company--capacity-of-competition-1)
 ![](https://hyperledger.org/wp-content/uploads/2018/07/Hyperledger_Greenhouse-59-2.png)
 
 ## Introduction about Blockchain System
