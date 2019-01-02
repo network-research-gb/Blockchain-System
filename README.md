@@ -32,7 +32,7 @@ type Block struct {
 	Timestamp     int64
 }
 
-// Define a block in network P2P system 
+// Define the series block in network P2P system 
 type Blockchain struct {
 	blocks []*Block
 }
@@ -68,8 +68,10 @@ func InitBlockchain() *Blockchain {
 	return instantiated
 }
 
+// Add a new block into blockchain network
 func (bc *Blockchain) AddBlock(data string) {
-	prevBlock := bc.blocks[len(bc.blocks)-1]
+	// Blockchain hash of the previous block
+	prevBlock := bc.blocks[len(bc.blocks) - 1]
 	newBlock := NewBlock(data, prevBlock.Hash)
 	bc.blocks = append(bc.blocks, newBlock)
 }
@@ -77,9 +79,9 @@ func (bc *Blockchain) AddBlock(data string) {
 func main() {
 	bc := InitBlockchain()
 
-	bc.AddBlock("Doraemon send 1 btc to batman")
-	bc.AddBlock("Batman send 2 btc to superman")
-	bc.AddBlock("Batman send 1 btc to girls")
+	bc.AddBlock("A send 1 btc to B")
+	bc.AddBlock("B send 2 btc to C")
+	bc.AddBlock("D send 1 btc to E")
 
 	fmt.Println()
 	for _, block := range bc.blocks {
