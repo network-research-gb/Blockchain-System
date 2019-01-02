@@ -13,6 +13,8 @@ Cấu tạo các trường dữ liệu của mỗi node:
 + Data: Dữ liệu lưu trong block như transaction đối với tiền ảo, thông tin về hệ thống ứng dụng
 + Timestamp: Thời gian node được sinh ra
 
+![](https://bitcoinvietnamnews.com/wp-content/uploads/2018/08/an-toan-khi-giao-dich-blockchain.png)
+
 ```go
 package main
 
