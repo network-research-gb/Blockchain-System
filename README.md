@@ -8,7 +8,7 @@ Blockchain là một công nghệ cho phép truyền dữ liệu an toàn với 
 Blockchain sở hữu tính năng là việc truyền tải dữ liệu (bất cứ cái gì trên đời cũng có thể là dữ liệu) không đòi hỏi một trung gian để xác nhận thông tin. Hệ thống Blockchain tồn tại rất nhiều nút độc lập có khả năng xác thực thông tin mà không đòi hỏi **dấu hiệu của niềm tin**. **Thông tin trong Blockchain không thể bị thay đổi và chỉ được bổ sung thêm khi có sự đồng thuận của tất cả các nút trong hệ thống**. **Người tham gia vào mạng có trách nhiệm phê duyệt các giao dịch và giám sát mạng bằng cách giải quyết các công thức tinh vi với sự trợ giúp của máy tính**. Nó là một hệ thống ngang hàng P2P, loại bỏ tất cả mọi khâu trung gian, làm tăng cường an ninh, minh bạch và sự ổn định cũng như giảm thiểu chi phí và lỗi do con người gây ra.
 
 Cấu tạo các trường dữ liệu của mỗi node:
-+ Hash: Giá trị dùng để **chứng nhận" 1 block**. Một giá trị hash sẽ tương ứng với một bộ dữ liệu của block. Khi 1 bit trong block thay đổi thì giá trị được lập trình hash tính ra được sẽ thay đổi theo.
++ Hash: Giá trị dùng để **chứng nhận 1 block**. Một giá trị hash sẽ tương ứng với một bộ dữ liệu của block. Khi 1 bit trong block thay đổi thì giá trị được lập trình hash tính ra được sẽ thay đổi theo.
 + Previous Block Hash: Giá trị hash của block trước nó (Block đầu tiên sẽ có giá trị bằng 0)
 + Data: Dữ liệu lưu trong block như transaction đối với tiền ảo, thông tin về hệ thống ứng dụng
 + Timestamp: Thời gian node được sinh ra
