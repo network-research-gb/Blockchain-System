@@ -148,7 +148,62 @@ Tôi xin điểm sơ qua vài platform, open source, startup trong nghiên cứu
 ## Build own Blockchain Platform
 Blockchain là một cơ sở dữ liệu phân tán với một bộ quy tắc để xác minh các bổ sung mới cho cơ sở dữ liệu mạng hệ thống. Có nhiều cách xây dựng mạng lưới Blockchain:
 + Forking những codebase đã tồn tại phát triển tiếp như [Bitcoind](https://en.bitcoin.it/wiki/Bitcoind#Initialization_and_Startup/), [bcoin](http://bcoin.io/), [btcd](https://github.com/btcsuite/btcd/blob/master/docs/README.md)
-+ Blockchain framework như [Cosmos SDK](https://cosmos.network/developers)
+
+**Compiler Bitvoin Source code in AWS**
+
+```
+# Update & Upgrade the System
+sudo apt-get update
+sudo apt-get upgrade
+
+# Install dependencies there might be more based on your system
+# However below instructions are for the fresh Ubuntu install/server
+# Please carefully watch the logs because if something could not be install
+# You have to make sure it is installed properly by trying the command or that particular
+# dependency again
+
+sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+sudo apt-get install libqrencode-dev autoconf openssl libssl-dev libevent-dev
+sudo apt-get install libminiupnpc-dev
+
+# Download Bitcoin Source code
+# ----------------------------
+cd ~
+git clone https://github.com/bitcoin/bitcoin.git
+
+# Bitcoin uses the Berkley DB 4.8
+# We need to install it as well
+# Download & Install Berkley DB
+# -----------------------------
+cd ~
+mkdir bitcoin/db4/
+wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+tar -xzvf db-4.8.30.NC.tar.gz
+cd db-4.8.30.NC/build_unix/
+../dist/configure --enable-cxx --disable-shared --with-pic --prefix=/home/theusername/bitcoin/db4/
+make install
+
+# Compile Bitcoin with Berkley DB 4.8
+# -----------------------------------
+cd ~/bitcoin/
+./autogen.sh
+# below command ./configure may return with error for dependencies
+# you need to make sure that it returns with no error
+# If it does please install the dependencies and rerun the /autogen.sh command again and then below command again
+./configure LDFLAGS="-L/home/theusername/bitcoin/db4/lib/" CPPFLAGS="-I/home/theusername/bitcoin/db4/include/"
+
+# below command may take 5-10 minutes based on your system
+make -s -j5
+
+# If all went well you will be able to access the binary at below location
+cd ~/bitcoin/
+./src/bitcoind
+./src/bitcoin-qt
+./src/bitcoin-cli
+```
++ Blockchain framework như [Solc](https://blockgeeks.com/introduction-to-solidity-part-1/), [Ether Scripter](https://etherscripter.com/0-5-1/), [Embark](https://embark.status.im/), [Tierion](https://tierion.com/), [Coinbase’s API](https://developers.coinbase.com/), [Mist](https://subscription.packtpub.com/book/big_data_and_business_intelligence/9781787122147/2/ch02lvl1sec32/mist), [Microsoft Blockchain as a Service](https://youtu.be/gQYMRxQiSwk), [Cosmos SDK](https://cosmos.network/developers)
 
 ```js
 // app.js
@@ -176,5 +231,7 @@ curl http://localhost:3000/txs -d '{aou:0}' | jsonpp // tab 2
 curl http://localhost:3000/state // tab 2
 {"count":1}
 ```
++ Blockchain Open Source
+
 ## Build own Bitcoin Platform
 ## Blockchain Company
